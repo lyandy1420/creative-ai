@@ -10,7 +10,7 @@ def returnDictionary(D):
     Modifies: Nothing
     Effects:  Returns the input dictionary D unchanged.
     """
-    return
+    return D
 
 def keyInDict(D, K):
     """
@@ -18,6 +18,8 @@ def keyInDict(D, K):
     Modifies: Nothing
     Effects:  Returns True if and only if the key K is already in D.
     """
+    if K in D:
+        
     return
 
 def returnKeyVal(D, K):
